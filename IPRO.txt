@@ -1,0 +1,32 @@
+Proceso calculadora
+	Escribir 'hola esta es una calculadora'
+	Escribir 'dime el primer numero a sumar'
+	Leer numeroa
+	Escribir 'hola esta es una calculadora'
+	Escribir 'dime el segundo numero a sumar'
+	Leer numerob
+	resultado_suma <- numeroa+numerob
+	Escribir 'resultado=',resultado_suma
+	Escribir 'hola esta es una calculadora'
+	Escribir 'dime el tercer numero'
+	Leer numeroc
+	resultado_resta <- numeroa-numerob-numeroc
+	Escribir 'resultado=',resultado_resta
+	Escribir 'hola esta es una calculadora'
+	Escribir 'dime el cuarto numero'
+	Leer numerod
+	resultado_multiplicar <- numeroa*numerod
+	Escribir 'resultado=',resultado_multiplicar
+	Escribir 'cual es tu nombre'
+	Leer nom
+	Escribir 'ingresa el numero de notas a calcular'
+	Leer x
+	day <- -0
+	Para i<-1 Hasta x Hacer
+		Escribir 'ingresar la nota',i,':'
+		Leer nota
+		day <- day+nota
+	FinPara
+	final <- day/x
+	Escribir 'el promedio de',nom,'es de:',final
+FinProceso
